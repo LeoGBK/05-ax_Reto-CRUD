@@ -4,3 +4,9 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+
+header {
+    background-color: rgb(106, 114, 217);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
