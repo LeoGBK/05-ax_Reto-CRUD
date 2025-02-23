@@ -33,6 +33,9 @@ h2 {
     background-color: rgb(217, 101, 101);
     padding-top: 3em;
     padding-bottom: 3em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
