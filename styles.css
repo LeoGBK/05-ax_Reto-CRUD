@@ -34,7 +34,7 @@ h2 {
 
 .tarjeta {
   background-color: rgb(217, 101, 101);
-  width: 71%;
+  width: 228px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -64,5 +64,29 @@ footer {
 
 /* Applying media query to change <img> and text size when the display width is higher */
 @media only screen and (min-width: 500px) {
+  header {
+    font-size: xx-large;
+  }
 
+  h2 {
+    font-size: x-large;
+  }
+
+  .tarjeta {
+    width: 315px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: large;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
 }
