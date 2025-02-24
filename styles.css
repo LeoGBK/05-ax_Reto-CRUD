@@ -22,7 +22,7 @@ main {
   height: 100%;
 }
 
-.inicio {
+#inicio {
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -32,7 +32,7 @@ h2 {
   font-weight: bold;
 }
 
-.tarjeta {
+#tarjeta {
   background-color: rgb(217, 101, 101);
   width: 228px;
   margin-left: auto;
@@ -49,7 +49,7 @@ p {
   font-size: 11.5px;
 }
 
-.boton {
+#boton {
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -72,7 +72,7 @@ footer {
     font-size: x-large;
   }
 
-  .tarjeta {
+  #tarjeta {
     width: 315px;
   }
 
