@@ -1,3 +1,4 @@
+html,
 body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -54,11 +55,12 @@ p {
 #boton {
   padding-top: 1em;
   padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 /* Fixing footer position to the bottom. */
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   font-size: xx-small;
   padding-top: 1em;
@@ -85,6 +87,10 @@ footer {
 
   p {
     font-size: 14.5px;
+  }
+
+  #boton {
+    margin-bottom: 3em;
   }
 
   footer {
