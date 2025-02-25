@@ -2,7 +2,9 @@ const tarjeta = document.getElementById('tarjeta');
 
 const boton = document.querySelector('button');
 
+// Initializing counter for card counting.
 let counter = 1;
+
 // In order to make the button existance reasonable I'm adding a function to practice.
 boton.onclick = function () {
     if (boton.textContent === "Agregar Componente") {
